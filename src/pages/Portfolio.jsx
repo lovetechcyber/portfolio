@@ -20,7 +20,7 @@ const projects = [
   },
   {
   name: 'BankNet Penetration Test',
-  image: 'https: BankNet,
+  image:  BankNet,
   description: 'Conducted a comprehensive black-box penetration test for a fintech API using Burp Suite, Nmap, and Metasploit. Delivered a full vulnerability assessment and remediation plan.',
   stack: ['Burp Suite', 'OWASP', 'Nmap', 'Metasploit'],
 },
