@@ -12,6 +12,8 @@ import Footer from './components/Footer';
 import AdminLogin from './components/Adminlogin';
 import BlogPost from './pages/BlogPost';
 import BlogAdmin from './pages/BlogAdmin';
+
+function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col justify-between">
