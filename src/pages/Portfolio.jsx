@@ -1,5 +1,5 @@
 import React from 'react';
-import health from '../assets/health.png'; 
+import health from '../assets/health.png'; 
 import fintec from '../assets/fintec.png';
 import BankNet from '../assets/BankNet.jpg';
 import gov from '../assets/gov.jpg';
@@ -19,25 +19,25 @@ const projects = [
     stack: ['Django', 'AWS', 'IaC', 'CI/CD', 'GDPR'],
   },
   {
-  name: 'BankNet Penetration Test',
-  image:  BankNet,
-  description: 'Conducted a comprehensive black-box penetration test for a fintech API using Burp Suite, Nmap, and Metasploit. Delivered a full vulnerability assessment and remediation plan.',
-  stack: ['Burp Suite', 'OWASP', 'Nmap', 'Metasploit'],
-},
-{
-  name: 'SecureGov Network Defense',
-  image: gov
-  description: 'Designed and deployed a layered defense system for a government agency using IDS/IPS, firewall segmentation, and real-time threat monitoring.',
-  stack: ['Snort', 'pfSense', 'Splunk', 'Wireshark'],
-},
-{
-  name: 'Healthcare Threat Simulation',
-  image: simulation,
-  description: 'Simulated real-world attacks on a HIPAA-regulated health platform to evaluate response time and network resilience.',
-  stack: ['MITRE ATT&CK', 'Kali Linux', 'Nessus', 'Syslog'],
-}
-
+    name: 'BankNet Penetration Test',
+    image: BankNet,
+    description: 'Conducted a comprehensive black-box penetration test for a fintech API using Burp Suite, Nmap, and Metasploit. Delivered a full vulnerability assessment and remediation plan.',
+    stack: ['Burp Suite', 'OWASP', 'Nmap', 'Metasploit'],
+  },
+  {
+    name: 'SecureGov Network Defense',
+    image: gov,
+    description: 'Designed and deployed a layered defense system for a government agency using IDS/IPS, firewall segmentation, and real-time threat monitoring.',
+    stack: ['Snort', 'pfSense', 'Splunk', 'Wireshark'],
+  },
+  {
+    name: 'Healthcare Threat Simulation',
+    image: simulation,
+    description: 'Simulated real-world attacks on a HIPAA-regulated health platform to evaluate response time and network resilience.',
+    stack: ['MITRE ATT&CK', 'Kali Linux', 'Nessus', 'Syslog'],
+  },
 ];
+
 
 const Portfolio = () => {
   return (
