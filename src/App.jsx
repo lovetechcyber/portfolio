@@ -9,8 +9,9 @@ import Industries from './pages/Industries';
 import Blog from './pages/Blog';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
-function App() {
+import AdminLogin from './components/Adminlogin';
+import BlogPost from './pages/BlogPost';
+import BlogAdmin from './pages/BlogAdmin';
   return (
     <Router>
       <div className="min-h-screen flex flex-col justify-between">
@@ -25,6 +26,9 @@ function App() {
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/industries" element={<Industries />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/admin/login" element={<AdminLogin />} />
+            <Route path="/blog/:id" element={<BlogPost />} />
+            <Route path="/admin/blog" element={<BlogAdmin />} />
           </Routes>
         </main>
         <Footer />

@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
@@ -11,6 +12,10 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/api/contact', require('./routes/contactRoutes'));
+app.use('/api/auth', require('./routes/authRouts'));
+// eslint-disable-next-line no-undef
+app.use('/api/blog', require('./routes/blogRoutes'));
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

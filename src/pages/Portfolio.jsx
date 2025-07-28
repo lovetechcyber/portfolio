@@ -15,6 +15,25 @@ const projects = [
     description: 'Secure admin dashboard for a fintech startup with CI/CD security scans and infrastructure-as-code on AWS.',
     stack: ['Django', 'AWS', 'IaC', 'CI/CD', 'GDPR'],
   },
+  {
+  name: 'BankNet Penetration Test',
+  image: 'https://picsum.photos/seed/pentest/600/400', // Replace with real image if available
+  description: 'Conducted a comprehensive black-box penetration test for a fintech API using Burp Suite, Nmap, and Metasploit. Delivered a full vulnerability assessment and remediation plan.',
+  stack: ['Burp Suite', 'OWASP', 'Nmap', 'Metasploit'],
+},
+{
+  name: 'SecureGov Network Defense',
+  image: 'https://picsum.photos/seed/network/600/400',
+  description: 'Designed and deployed a layered defense system for a government agency using IDS/IPS, firewall segmentation, and real-time threat monitoring.',
+  stack: ['Snort', 'pfSense', 'Splunk', 'Wireshark'],
+},
+{
+  name: 'Healthcare Threat Simulation',
+  image: 'https://picsum.photos/seed/simulation/600/400',
+  description: 'Simulated real-world attacks on a HIPAA-regulated health platform to evaluate response time and network resilience.',
+  stack: ['MITRE ATT&CK', 'Kali Linux', 'Nessus', 'Syslog'],
+}
+
 ];
 
 const Portfolio = () => {

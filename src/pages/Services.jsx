@@ -28,6 +28,17 @@ const services = [
       'Real-time threat detection & compliance automation',
     ],
   },
+  {
+  title: 'Cybersecurity Projects',
+  description: 'Specialized services and consulting for offensive and defensive security operations.',
+  points: [
+    'Penetration Testing (Web, Network, Wireless)',
+    'Network Traffic Analysis & Forensics',
+    'Advanced Threat Defense Systems & Firewalls',
+    'Incident Response & Vulnerability Remediation',
+  ],
+},
+
 ];
 
 const Services = () => {
