@@ -9,7 +9,7 @@ import Industries from './pages/Industries';
 import Blog from './pages/Blog';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import AdminLogin from './components/Adminlogin';
+import AdminLogin from './components/AdminLogin';
 import BlogPost from './pages/BlogPost';
 import BlogAdmin from './pages/BlogAdmin';
 
