@@ -27,7 +27,7 @@ const BlogAdmin = () => {
     setMessage('');
 
     try {
-      const res = await fetch('http://localhost:5000/api/blog', {
+      const res = await fetch('https://portfolio-e6og.onrender.com/api/blog', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
