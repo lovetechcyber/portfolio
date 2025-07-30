@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/contact', require('./routes/contactRoutes'));
+
 app.use('/api/auth', require('./routes/authRoutes'));
 // eslint-disable-next-line no-undef
 app.use('/api/blog', require('./routes/blogRoutes'));
