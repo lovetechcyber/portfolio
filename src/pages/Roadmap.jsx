@@ -14,7 +14,7 @@ const milestones = [
     goals: [
       '🛠 Launch first DevSecOps automation tool',
       '👨‍💻 Expand technical team',
-      '🌍 Target international clients (US, UK, EU)',
+      '🌍 Target international clients (US, UK, EU, Saudi Arabia)',
     ],
   },
 ];
